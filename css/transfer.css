@@ -1,0 +1,61 @@
+/* 宠物列表 */
+/* .aaa {
+    margin-top: 50px; 
+} */
+
+.pet-lists.container .media {
+    margin-top: 50px;
+}
+
+.pet-lists.container .media:first-child {
+    margin-top: 50px;
+}
+
+.pet-lists.container .media, .pet-lists.container .media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.pet-lists.container .media-body {
+    width: 10000px;
+}
+
+.pet-lists.container .media-object {
+    display: block;
+    width: 200px;
+}
+
+.pet-lists.container .media-object.img-thumbnail {
+    max-width: none;
+}
+
+.pet-lists.container .media-right, .pet-lists.container .media>.pull-right {
+    padding-left: 10px;
+}
+
+.pet-lists.container .media-left, .pet-lists.container .media>.pull-left {
+    padding-right: 10px;
+}
+
+.pet-lists.container .media-left, .pet-lists.container .media-right, .pet-lists.container .media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.pet-lists.container .media-middle {
+    vertical-align: middle;
+}
+
+.pet-lists.container .media-bottom {
+    vertical-align: bottom;
+}
+
+.pet-lists.container .media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.pet-lists.container .media-list {
+    padding-left: 0;
+    list-style: none;
+}
